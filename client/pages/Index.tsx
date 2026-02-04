@@ -2,7 +2,7 @@ import { Mail, Github, Linkedin, ExternalLink, Code2, Lightbulb, Users, Award } 
 
 export default function Index() {
   // Sample data - customize these for your portfolio
-  const name = "Alex Johnson";
+  const name = "Onkar Swami";
   const title = "Full Stack Developer & UI Designer";
   const location = "San Francisco, CA";
   const email = "alex@example.com";
