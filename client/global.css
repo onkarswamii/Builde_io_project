@@ -12,86 +12,91 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 217 33% 17%;
+    /* Dark theme as default */
+    /* Near-black background with subtle depth */
+    --background: 220 13% 11%;
+    --foreground: 220 13% 93%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 217 33% 17%;
+    /* Slightly lighter cards for depth and hierarchy */
+    --card: 220 13% 16%;
+    --card-foreground: 220 13% 93%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 217 33% 17%;
+    --popover: 220 13% 11%;
+    --popover-foreground: 220 13% 93%;
 
-    /* Deep navy primary color - professional and trustworthy */
-    --primary: 217 33% 17%;
-    --primary-foreground: 0 0% 100%;
+    /* Vibrant neon cyan accent - modern and energetic */
+    --primary: 190 100% 50%;
+    --primary-foreground: 220 13% 11%;
 
-    /* Soft light gray secondary */
-    --secondary: 220 13% 91%;
-    --secondary-foreground: 217 33% 17%;
+    /* Subtle gray secondary for secondary actions */
+    --secondary: 220 13% 25%;
+    --secondary-foreground: 220 13% 93%;
 
-    /* Muted colors for subtle elements */
-    --muted: 217 13% 69%;
-    --muted-foreground: 217 13% 43%;
+    /* Muted colors for subtle text and borders */
+    --muted: 220 13% 35%;
+    --muted-foreground: 220 13% 65%;
 
-    /* Vibrant cyan accent - modern and energetic */
-    --accent: 190 100% 50%;
+    /* Purple accent alternative for variety */
+    --accent: 270 100% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
+    /* Subtle borders for dark mode */
+    --border: 220 13% 22%;
+    --input: 220 13% 22%;
     --ring: 190 100% 50%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 217 33% 17%;
-    --sidebar-primary: 217 33% 17%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 190 100% 50%;
+    --sidebar-background: 220 13% 16%;
+    --sidebar-foreground: 220 13% 93%;
+    --sidebar-primary: 190 100% 50%;
+    --sidebar-primary-foreground: 220 13% 11%;
+    --sidebar-accent: 270 100% 55%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 220 13% 91%;
+    --sidebar-border: 220 13% 22%;
     --sidebar-ring: 190 100% 50%;
   }
 
   .dark {
-    --background: 215 28% 17%;
-    --foreground: 0 0% 98%;
+    /* Already set to dark theme by default */
+    --background: 220 13% 11%;
+    --foreground: 220 13% 93%;
 
-    --card: 215 29% 24%;
-    --card-foreground: 0 0% 98%;
+    --card: 220 13% 16%;
+    --card-foreground: 220 13% 93%;
 
-    --popover: 215 28% 17%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 220 13% 11%;
+    --popover-foreground: 220 13% 93%;
 
-    --primary: 0 0% 100%;
-    --primary-foreground: 217 33% 17%;
+    --primary: 190 100% 50%;
+    --primary-foreground: 220 13% 11%;
 
-    --secondary: 217 13% 33%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 220 13% 25%;
+    --secondary-foreground: 220 13% 93%;
 
-    --muted: 217 13% 45%;
-    --muted-foreground: 217 13% 73%;
+    --muted: 220 13% 35%;
+    --muted-foreground: 220 13% 65%;
 
-    --accent: 190 100% 50%;
+    --accent: 270 100% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 217 13% 33%;
-    --input: 217 13% 33%;
+    --border: 220 13% 22%;
+    --input: 220 13% 22%;
     --ring: 190 100% 50%;
 
-    --sidebar-background: 215 29% 24%;
-    --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 0 0% 100%;
-    --sidebar-primary-foreground: 217 33% 17%;
-    --sidebar-accent: 190 100% 50%;
+    --sidebar-background: 220 13% 16%;
+    --sidebar-foreground: 220 13% 93%;
+    --sidebar-primary: 190 100% 50%;
+    --sidebar-primary-foreground: 220 13% 11%;
+    --sidebar-accent: 270 100% 55%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 217 13% 33%;
+    --sidebar-border: 220 13% 22%;
     --sidebar-ring: 190 100% 50%;
   }
 }
