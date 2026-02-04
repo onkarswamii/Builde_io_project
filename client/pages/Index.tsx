@@ -4,8 +4,8 @@ export default function Index() {
   // Sample data - customize these for your portfolio
   const name = "Onkar Swami";
   const title = "Full Stack Developer & UI Designer";
-  const location = "San Francisco, CA";
-  const email = "alex@example.com";
+  const location = "Pune, Maharashtra";
+  const email = "Onkar@example.com";
 
   const about = `I'm a first-year computer science student with a passion for creating beautiful, functional digital experiences. I combine design thinking with modern development practices to build web applications that users love.`;
 
