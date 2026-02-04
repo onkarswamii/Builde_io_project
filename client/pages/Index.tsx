@@ -14,15 +14,15 @@ export default function Index() {
 
   const education = [
     {
-      school: "University Name",
+      school: "Newton School of Technology",
       degree: "B.Tech in CSE AL & ML",
-      year: "2024 - 2028",
-      details: "GPA: 3.8/4.0 | Dean's List",
+      year: "2025 - 2029",
+      details: "GPA: 4.0/5.0",
     },
     {
       school: "High School Name",
       degree: "High School Diploma",
-      year: "2020 - 2024",
+      year: "2019 - 2023",
       details: "Advanced Placement Courses, Honors Graduate",
     },
   ];
@@ -365,7 +365,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="section-container py-12 border-t border-border text-center text-muted-foreground">
         <p>
-          © 2024 {name}. Designed and built with <span className="text-accent">❤️</span>
+          © 2026 {name}. Designed and built with <span className="text-accent">❤️</span>
         </p>
         <p className="text-sm mt-2">Built with React, Tailwind CSS & Vite</p>
       </footer>
