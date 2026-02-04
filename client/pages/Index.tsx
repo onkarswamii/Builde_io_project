@@ -9,13 +9,13 @@ export default function Index() {
 
   const about = `I'm a first-year computer science student with a passion for creating beautiful, functional digital experiences. I combine design thinking with modern development practices to build web applications that users love.`;
 
-  const technicalSkills = ["React", "TypeScript", "Node.js", "Tailwind CSS", "PostgreSQL", "Git"];
+  const technicalSkills = ["Python", "Golang", "Html", "CSS", "Javascript", "Git"];
   const softSkills = ["Problem Solving", "Communication", "Team Collaboration", "Adaptability"];
 
   const education = [
     {
       school: "University Name",
-      degree: "B.S. in Computer Science",
+      degree: "B.Tech in CSE AL & ML",
       year: "2024 - 2028",
       details: "GPA: 3.8/4.0 | Dean's List",
     },
